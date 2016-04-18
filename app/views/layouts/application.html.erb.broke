@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+
+<nav class="navbar navbar-full navbar-light bg-faded">
+ <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#mainNavbar">
+<div class="collapse navbar-toggleable-xs" id="mainNavbar">
+          &#9776;
+        </button>
+ <ul class = "nav navbar-nav pull-right">
+                        <li>Home</li>
+                        <li>About</li>
+      </ul>
+
+</nav>
+
+  <title>FridgeDoor</title>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
