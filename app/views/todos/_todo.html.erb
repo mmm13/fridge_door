@@ -1,0 +1,5 @@
+<div class="card card-block todo">
+  <h4 class="card-title"><%= todo.description %></h4>
+  <p class="card-text"><%= todo.is_complete %></p>
+   <%= link_to "Edit", edit_todo_path(todo), class: "card-link" %>
+</div>
